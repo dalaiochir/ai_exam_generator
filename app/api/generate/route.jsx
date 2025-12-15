@@ -1,4 +1,5 @@
-import { generateExam } from "@/lib/examGenerator";
+import { generateExam } from "../../../../lib/examGenerator";
+
 
 export async function POST(req) {
   const data = await req.json();

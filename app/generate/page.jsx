@@ -2,6 +2,7 @@
 import { useState } from "react";
 import ExamForm from "@/components/ExamForm";
 
+
 export default function GeneratePage() {
   const [exam, setExam] = useState(null);
 
